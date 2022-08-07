@@ -1,5 +1,11 @@
+import "./LoginPage.css";
+
 const LoginPage = () => {
-  return <div className="LoginPage">this is loasdgin page</div>;
+  return (
+    <div className="LoginPage">
+      <div className="LoginBox"></div>
+    </div>
+  );
 };
 
 export default LoginPage;

@@ -1,0 +1,16 @@
+.LoginPage {
+  text-align: center;
+  background-color: #f3f3f3;
+  color: rgb(37, 37, 37);
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.LoginBox {
+  width: 500px;
+  height: 500px;
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  margin: auto;
+}
