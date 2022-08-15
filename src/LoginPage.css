@@ -1,8 +1,9 @@
 .LoginPage {
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: #f7f7ff;
   color: rgb(37, 37, 37);
-  min-height: 100vh;
+  height: 100vh;
+  text-decoration: none;
 }
 
 .LoginBox {
@@ -11,7 +12,7 @@
   /* border: 1px solid rgb(199, 199, 199); */
   border: none;
   border-radius: 10px;
-  background-color: #f3f3f3;
+  background-color: #f7f7ff;
   margin: auto;
   padding-top: 280px;
 }
@@ -29,9 +30,9 @@
   letter-spacing: 0.4px;
   line-height: 2.4vh;
   text-decoration: none;
-  margin-bottom: 2vh;
+  margin-bottom: 18px;
   box-sizing: border-box;
-  padding: 0px 2vh 0px 2vh;
+  padding: 0px 18px 0px 18px;
   display: block;
 }
 
@@ -44,10 +45,10 @@
   font-weight: 1000;
   outline-width: 1px;
   border: none;
-  background: #f57c86;
+  background: #5b5bff;
   letter-spacing: 0.4px;
   line-height: 2.4vh;
-  margin-bottom: 1vh;
+  margin-bottom: 18px;
   margin-top: 0px;
   box-sizing: border-box;
   cursor: pointer;
@@ -57,19 +58,36 @@
 }
 
 .LoginPage .loginBtn:hover {
-  background-color: #ffa2ac;
+  background-color: #9292ff;
   transition-duration: 100ms;
 }
 
+.LoginPage .signup {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  outline-width: 1px;
+  border: 1px solid #5b5bff;
+  background: #f7f7ff;
+  letter-spacing: 0.4px;
+  line-height: 2.4vh;
+  margin-bottom: 1vh;
+  margin-top: 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #5b5bff;
+  transition-duration: 100ms;
+  display: block;
+}
+
 .LoginPage .Logo {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-size: 36px;
   font-weight: 500;
   cursor: pointer;
   /* color: #f57c86; */
   color: rgb(37, 37, 37);
-}
-
-.LoginPage a {
-  color: #0d8ced;
 }
