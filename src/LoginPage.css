@@ -44,7 +44,7 @@
   font-weight: 1000;
   outline-width: 1px;
   border: none;
-  background: rgb(71, 71, 71);
+  background: #f57c86;
   letter-spacing: 0.4px;
   line-height: 2.4vh;
   margin-bottom: 1vh;
@@ -57,16 +57,17 @@
 }
 
 .LoginPage .loginBtn:hover {
-  background-color: rgb(137, 137, 137);
+  background-color: #ffa2ac;
   transition-duration: 100ms;
 }
 
 .LoginPage .Logo {
   margin-bottom: 50px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 500;
   cursor: pointer;
-  color: #0d8ced;
+  /* color: #f57c86; */
+  color: rgb(37, 37, 37);
 }
 
 .LoginPage a {
