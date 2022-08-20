@@ -1,4 +1,52 @@
 .MainPage {
-  background-color: #f7f7ff;
+  background-color: #f5f5f5;
   height: 100vh;
+  padding-right: 340px;
+  text-align: center;
+  color: #686868;
+  font-weight: 400;
+}
+
+.MainPage .firstArea {
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: inline-block;
+}
+
+.MainPage .intro {
+  text-align: center;
+  padding: 50px;
+  float: left;
+  font-size: 20px;
+  text-align: left;
+}
+
+.MainPage .firstArea .intro .logo {
+  font-weight: 700;
+  color: #498fdd;
+}
+
+.MainPage .firstArea img {
+  object-fit: cover;
+  width: 400px;
+  border-radius: 10px;
+  float: left;
+  box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.3);
+}
+
+.MainPage .dummyArea1 {
+  height: 40vh;
+  width: calc(100vw - 340px);
+  background-color: rgb(255, 255, 255);
+  padding-top: 38vh;
+  font-size: 20px;
+}
+
+.MainPage .dummyArea2 {
+  height: 40vh;
+  width: calc(100vw - 340px);
+  background-color: #f5f5f5;
+  padding-top: 38vh;
+  font-size: 20px;
 }

@@ -6,12 +6,14 @@
   font-style: normal;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
 .App {
   text-align: center;
-  background-color: #ffeff4;
+  background-color: black;
   color: rgb(37, 37, 37);
   min-height: 100vh;
-  font-family: "Pretendard-Regular";
+  font-family: "Poppins", "Pretendard-Regular";
   text-decoration: none;
 }
 

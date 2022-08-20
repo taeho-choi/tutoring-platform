@@ -5,10 +5,10 @@ const LoginPage = () => {
   return (
     <div className="LoginPage">
       <div className="LoginBox">
-        <div className="Logo">Sign in</div>
+        <div className="Logo">Teacher Login</div>
         <input placeholder="ID"></input>
         <input placeholder="Password" type={"password"}></input>
-        <Link to="/">
+        <Link to="/teacher">
           <button className="loginBtn">Sign in</button>
         </Link>
         <button className="signup">Sign up</button>

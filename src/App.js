@@ -3,6 +3,8 @@ import { Route } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import LoginPage from "./LoginPage";
 import MainPage from "./MainPage";
+import SideMenu from "./SideMenu";
+import Teacher from "./Teacher";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
           path="/"
           render={() => (
             <>
+              <SideMenu />
               <MainPage />
             </>
           )}
@@ -23,6 +26,15 @@ function App() {
           render={() => (
             <>
               <LoginPage />
+            </>
+          )}
+        />
+        <Route
+          exact
+          path="/teacher"
+          render={() => (
+            <>
+              <Teacher />
             </>
           )}
         />

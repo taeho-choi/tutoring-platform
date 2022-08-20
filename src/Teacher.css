@@ -1,0 +1,28 @@
+.Teacher {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Teacher .topArea {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.Teacher .topArea .logo {
+  font-weight: 700;
+  color: #498fdd;
+  font-size: 16px;
+  float: left;
+}
+
+.Teacher .topArea .pageInfo {
+  margin-left: 16px;
+  font-weight: 300;
+  color: #686868;
+  font-size: 16px;
+  float: left;
+}
