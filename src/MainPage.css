@@ -9,8 +9,8 @@
 
 .MainPage .firstArea {
   margin: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   display: inline-block;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .MainPage .firstArea .intro .logo {
-  font-weight: 700;
+  font-weight: 600;
   color: #498fdd;
 }
 
