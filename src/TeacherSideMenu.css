@@ -48,13 +48,13 @@
 .TeacherSideMenu .info .follow {
   margin: auto;
   margin-top: 20px;
-  width: 80px;
+  width: 100px;
   padding: 4px;
   border-radius: 50px;
   background-color: #498fdd;
   color: white;
   transition-duration: 100ms;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .TeacherSideMenu .info .profile {
@@ -104,7 +104,7 @@
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .TeacherSideMenu .MenuButton {
