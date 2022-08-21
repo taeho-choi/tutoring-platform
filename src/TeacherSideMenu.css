@@ -1,0 +1,118 @@
+.TeacherSideMenu {
+  position: fixed;
+  margin-top: 77px;
+}
+
+.TeacherSideMenu .box {
+  margin: auto;
+  width: 350px;
+  height: 100vh;
+  margin-left: 0px;
+  overflow-y: scroll;
+  border-right: 1px solid #d0d0d0;
+}
+
+.TeacherSideMenu .box::-webkit-scrollbar {
+  width: 0px;
+}
+
+.TeacherSideMenu .box #profileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.3);
+}
+
+.TeacherSideMenu .info {
+  width: 350px;
+  height: calc(150vh - 100px);
+  padding-top: 50px;
+  background-color: #ffffff;
+  float: left;
+}
+
+.TeacherSideMenu .info .name {
+  font-weight: 600;
+  margin: 10px;
+  font-size: 16px;
+  color: #363636;
+}
+
+.TeacherSideMenu .info .introduce {
+  font-size: 14px;
+  color: #686868;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.TeacherSideMenu .info .follow {
+  margin: auto;
+  margin-top: 20px;
+  width: 80px;
+  padding: 4px;
+  border-radius: 50px;
+  background-color: #498fdd;
+  color: white;
+  transition-duration: 100ms;
+  font-size: 14px;
+}
+
+.TeacherSideMenu .info .profile {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.TeacherSideMenu .info .follow:hover {
+  transition-duration: 100ms;
+  background-color: #509aee;
+  cursor: pointer;
+}
+
+.TeacherSideMenu .box .content {
+  /* border: 1px solid red; */
+  width: calc(100% - 351px - 100px);
+  padding: 50px;
+  margin-left: 351px;
+}
+
+.TeacherSideMenu .content .teacherInfo {
+  float: left;
+  margin-right: 50px;
+  background: white;
+  width: calc(50% - 100px);
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.1);
+  margin-bottom: 50px;
+  padding: 14px 36px 14px 36px;
+  color: #498fdd;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.TeacherSideMenu .content .card {
+  float: left;
+  width: 300px;
+  background: white;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.1);
+}
+
+.TeacherSideMenu .Menu {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.TeacherSideMenu .MenuButton {
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.TeacherSideMenu .MenuButton:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}

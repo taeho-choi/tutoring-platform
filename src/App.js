@@ -5,6 +5,8 @@ import LoginPage from "./LoginPage";
 import MainPage from "./MainPage";
 import SideMenu from "./SideMenu";
 import Teacher from "./Teacher";
+import TeacherContent from "./TeacherContent";
+import TeacherSideMenu from "./TeacherSideMenu";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
           render={() => (
             <>
               <Teacher />
+              <TeacherSideMenu />
+              <TeacherContent />
             </>
           )}
         />

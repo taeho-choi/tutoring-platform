@@ -8,12 +8,7 @@ const Teacher = () => {
         <div className="logo">LOGO</div>
         <div className="pageInfo">|　Teacher</div>
         <div className="hello">
-          Hello, <a>TaehoChoi</a>
-        </div>
-      </div>
-      <div className="bg">
-        <div className="box">
-          <img id="profile" src="img/profile.jpg" />
+          Hello, <a>Taeho Choi</a>
         </div>
       </div>
     </div>

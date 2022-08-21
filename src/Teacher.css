@@ -1,8 +1,7 @@
 .Teacher {
+  position: fixed;
+  color: #363636;
   width: 100vw;
-  min-height: calc(100vh - 200px);
-  background-color: #f5f5f5;
-  padding-bottom: 200px;
 }
 
 .Teacher .topArea {
@@ -12,53 +11,27 @@
   padding-right: 6vw;
   border-bottom: 1px solid #d0d0d0;
   background-color: white;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .Teacher .topArea .logo {
   font-weight: 600;
   color: #498fdd;
-  font-size: 20px;
+  font-size: 16px;
   float: left;
 }
 
 .Teacher .topArea .pageInfo {
   margin-left: 16px;
   font-weight: 300;
-  color: #686868;
-  font-size: 20px;
+  color: #363636;
+  font-size: 16px;
   float: left;
-}
-
-.Teacher .box {
-  margin: auto;
-  width: min(1000px, 80vw);
-  height: 120vh;
-  background-color: #ffffffc1;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.3);
-  backdrop-filter: blur(30px);
-}
-
-.Teacher .bg {
-  background-image: url("../public/img/profile.jpg");
-  background-size: 100vw;
-  margin: auto;
-  width: min(1000px, 80vw);
-  height: 120vh;
-  border-radius: 20px;
-}
-
-.Teacher .box #profile {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
-  float: left;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.3);
 }
 
 .Teacher .hello {
   float: right;
+  font-size: 16px;
 }
 
 .Teacher .hello a {
