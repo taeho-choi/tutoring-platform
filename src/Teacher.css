@@ -1,5 +1,7 @@
 .Teacher {
   position: fixed;
+  z-index: 9999;
+
   color: #363636;
   width: 100vw;
 }
@@ -10,20 +12,22 @@
   padding-left: 6vw;
   padding-right: 6vw;
   border-bottom: 1px solid #d0d0d0;
-  background-color: white;
-  /* margin-bottom: 30px; */
+
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .Teacher .topArea .logo {
-  font-weight: 600;
-  color: #498fdd;
+  font-weight: 800;
+  color: #f01d5c;
   font-size: 16px;
   float: left;
 }
 
 .Teacher .topArea .pageInfo {
   margin-left: 16px;
-  font-weight: 300;
+  font-weight: 600;
   color: #363636;
   font-size: 16px;
   float: left;
@@ -35,6 +39,6 @@
 }
 
 .Teacher .hello a {
-  color: #498fdd;
+  color: #f01d5c;
   font-weight: 600;
 }

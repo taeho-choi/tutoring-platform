@@ -5,6 +5,28 @@ const TeacherContent = () => {
   return (
     <div className="TeacherContent">
       <div className="paddingBox"></div>
+      <div className="cardContainer">
+        <div className="card">
+          <div className="cardFront">
+            <div id="logo">LOGO</div> <div id="name">taeho choi</div>
+          </div>
+          <div className="cardBack">
+            <div id="logo">LOGO</div>
+            <div id="nameKor">
+              최태호<a>Web Developer</a>
+            </div>
+            <div id="nameEng">TAEHO CHOI</div>
+            <div id="describe">
+              Ｍ　+82 010-2737-8623
+              <br />
+              Ｅ　abcabc123@naver.com
+              <br />
+              Ｃ　HTML/CSS, JavaScript, TypeScript
+            </div>
+            <hr></hr>
+          </div>
+        </div>
+      </div>
       <div className="teacherInfo">
         <img src="img/myPhoto.png" />
         <div className="name">Taeho Choi</div>
