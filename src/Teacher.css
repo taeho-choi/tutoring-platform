@@ -9,33 +9,40 @@
 .Teacher .topArea {
   padding-top: 30px;
   padding-bottom: 46px;
-  padding-left: 6vw;
-  padding-right: 6vw;
   border-bottom: 1px solid #d0d0d0;
 
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  text-align: center;
 }
 
 .Teacher .topArea .logo {
   font-weight: 800;
   color: #f01d5c;
   font-size: 16px;
-  float: left;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 900px;
 }
 
 .Teacher .topArea .pageInfo {
-  margin-left: 16px;
   font-weight: 600;
   color: #363636;
   font-size: 16px;
-  float: left;
+  position: absolute;
+  margin: auto;
+  left: 0px;
+  right: 750px;
 }
 
 .Teacher .hello {
-  float: right;
   font-size: 16px;
+  position: absolute;
+  margin: auto;
+  left: 800px;
+  right: 0;
 }
 
 .Teacher .hello a {

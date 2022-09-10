@@ -1,8 +1,11 @@
 .TeacherContent {
   background-color: #f5f5f5;
   height: max(1300px, 100vh);
-  padding-left: 351px;
+  height: 2000px;
   color: #363636;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .TeacherContent .paddingBox {
@@ -59,6 +62,27 @@
   font-family: "Nanum Myeongjo", serif;
 }
 
+.TeacherContent .cardFront #cursor {
+  float: right;
+  font-size: 24px;
+  animation: float 2s ease-in-out infinite;
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-10px) translateY(-10px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
 .TeacherContent .cardBack {
   position: absolute;
   width: 100%;
@@ -75,7 +99,7 @@
 
 .TeacherContent .cardBack #logo {
   float: right;
-  padding: 40px;
+  padding: 30px;
   font-size: 40px;
   color: #d5d5d5;
   font-family: "Nanum Myeongjo", serif;
@@ -88,7 +112,7 @@
   letter-spacing: 6px;
   margin-left: 0px;
   padding-left: 40px;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 .TeacherContent .cardBack #nameKor a {
@@ -114,6 +138,26 @@
   padding-top: 20px;
 }
 
+.TeacherContent .cardBack i {
+  color: #f01d5c;
+  margin-left: 14px;
+  margin-top: 20px;
+  float: right;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.TeacherContent .cardBack i:hover {
+  color: #f189a8;
+  transition-duration: 200ms;
+  transform: rotateZ(15deg);
+}
+
+.TeacherContent .cardBack .icons {
+  padding-right: 40px;
+  float: right;
+}
+
 .TeacherContent .cardBack hr {
   margin: auto;
   width: 370px;
@@ -130,6 +174,7 @@
   border-radius: 10px;
   padding: 30px;
   text-align: left;
+  background-color: white;
 }
 
 .TeacherContent img {
@@ -157,6 +202,10 @@
 .TeacherContent .about {
   font-size: 18px;
   font-weight: 600;
+}
+
+.TeacherContent .aboutDesc {
+  margin-bottom: 30px;
 }
 
 .TeacherContent .testContainer {
@@ -231,9 +280,9 @@ hr {
 }
 
 .TeacherContent .zoomCode .lesson {
-  margin-top: 20px;
+  margin-top: 30px;
   background-color: #f01d5c;
-  padding: 10px;
+  padding: 20px;
   padding-left: 16px;
   padding-right: 16px;
   border-radius: 10px;
@@ -253,33 +302,11 @@ hr {
   background-color: white;
 }
 
-.TeacherContent .testBox1 {
-  margin-bottom: 50px;
-  width: 300px;
-  height: 510px;
-  background-color: white;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
-  border-radius: 10px;
-  text-align: left;
-  float: left;
-}
-
-.TeacherContent .testBox2 {
-  margin-bottom: 50px;
-  width: 410px;
-  height: 310px;
-  background-color: white;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
-  border-radius: 10px;
-  text-align: left;
-  float: right;
-}
-
 /* Teacher Details */
 .TeacherContent .teacherDetails {
   width: 350px;
   background-color: white;
-  height: 400px;
+  height: 200px;
   float: right;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);

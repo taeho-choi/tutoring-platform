@@ -1,13 +1,15 @@
 .TeacherSideMenu {
   position: fixed;
   margin-top: 77px;
+  z-index: -1;
+  width: 70vw;
 }
 
 .TeacherSideMenu .box {
+  width: 1000px;
+
   margin: auto;
-  width: 350px;
   height: 100vh;
-  margin-left: 0px;
   overflow-y: scroll;
   border-right: 1px solid #d0d0d0;
 }
@@ -24,11 +26,12 @@
 }
 
 .TeacherSideMenu .info {
-  width: 350px;
+  width: 1000px;
+  margin-right: 300px;
+
   height: calc(150vh - 100px);
   padding-top: 50px;
   background-color: #fdfdfd;
-  float: left;
 }
 
 .TeacherSideMenu .info .name {
@@ -41,15 +44,13 @@
 .TeacherSideMenu .info .introduce {
   font-size: 14px;
   color: #686868;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .TeacherSideMenu .info .follow {
   margin: auto;
   margin-top: 20px;
-  width: 100px;
-  padding: 4px;
+  width: 80px;
+  padding: 5px;
   border-radius: 50px;
   background-color: #f01d5c;
   color: white;
@@ -65,39 +66,8 @@
 
 .TeacherSideMenu .info .follow:hover {
   transition-duration: 200ms;
-  background-color: grey;
+  background-color: #f189a8;
   cursor: pointer;
-}
-
-.TeacherSideMenu .box .content {
-  /* border: 1px solid red; */
-  width: calc(100% - 351px - 100px);
-  padding: 50px;
-  margin-left: 351px;
-}
-
-.TeacherSideMenu .content .teacherInfo {
-  float: left;
-  margin-right: 50px;
-  background: #fdfdfd;
-  width: calc(50% - 100px);
-  height: 100px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.1);
-  margin-bottom: 50px;
-  padding: 14px 36px 14px 36px;
-  color: #f01d5c;
-  font-weight: 500;
-  font-size: 14px;
-}
-
-.TeacherSideMenu .content .card {
-  float: left;
-  width: 300px;
-  background: #fdfdfd;
-  height: 600px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.1);
 }
 
 .TeacherSideMenu .Menu {
