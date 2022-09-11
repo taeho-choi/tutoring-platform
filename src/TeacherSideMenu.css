@@ -1,17 +1,16 @@
 .TeacherSideMenu {
   position: fixed;
   margin-top: 77px;
-  z-index: -1;
-  width: 70vw;
+  z-index: 0;
+  width: 100vw;
+  transform: translateX(-655px);
 }
 
 .TeacherSideMenu .box {
-  width: 1000px;
-
+  width: 300px;
   margin: auto;
   height: 100vh;
   overflow-y: scroll;
-  border-right: 1px solid #d0d0d0;
 }
 
 .TeacherSideMenu .box::-webkit-scrollbar {
@@ -19,26 +18,28 @@
 }
 
 .TeacherSideMenu .box #profileImg {
-  width: 150px;
-  height: 150px;
+  float: left;
+  margin-left: 16px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.3);
 }
 
 .TeacherSideMenu .info {
-  width: 1000px;
+  width: 300px;
   margin-right: 300px;
 
-  height: calc(150vh - 100px);
-  padding-top: 50px;
+  padding-top: 14px;
   background-color: #fdfdfd;
 }
 
 .TeacherSideMenu .info .name {
   font-weight: 600;
-  margin: 10px;
-  font-size: 16px;
+  margin: 14px;
+  font-size: 20px;
   color: #363636;
+  float: left;
 }
 
 .TeacherSideMenu .info .introduce {
@@ -52,35 +53,43 @@
   width: 80px;
   padding: 5px;
   border-radius: 50px;
-  background-color: #f01d5c;
+  background-color: #474b77;
   color: white;
   transition-duration: 100ms;
   font-size: 16px;
 }
 
 .TeacherSideMenu .info .profile {
-  padding-bottom: 50px;
-  border-bottom: 1px solid #d0d0d0;
+  height: 50px;
   transition-duration: 200ms;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.TeacherSideMenu .info .profile:hover {
+  background-color: #f5f5f5;
 }
 
 .TeacherSideMenu .info .follow:hover {
   transition-duration: 200ms;
-  background-color: #f189a8;
+  background-color: #5f659e;
   cursor: pointer;
 }
 
 .TeacherSideMenu .Menu {
   text-align: left;
-  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .TeacherSideMenu .MenuButton {
-  padding: 6px;
-  border-radius: 10px;
+  padding: 16px;
+  border-radius: 40px;
 }
 
 .TeacherSideMenu .MenuButton:hover {

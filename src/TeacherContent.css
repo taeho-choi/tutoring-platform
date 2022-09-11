@@ -1,16 +1,44 @@
 .TeacherContent {
+  position: relative;
   background-color: #f5f5f5;
-  height: max(1300px, 100vh);
-  height: 2000px;
+  height: max(860px, 100vh);
   color: #363636;
   width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  border-right: 1px solid #d0d0d0;
+  border-left: 1px solid #d0d0d0;
 }
 
 .TeacherContent .paddingBox {
   margin: auto;
-  height: 76px;
+  height: 67px;
+}
+
+.TeacherContent .profileContainer {
+  float: left;
+  width: 400px;
+  height: 350px;
+}
+
+.TeacherContent .profileContainer #name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.TeacherContent .profileContainer img {
+  float: none;
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 
 .TeacherContent .cardContainer {
@@ -18,8 +46,8 @@
   height: 250px;
   position: relative;
   margin: auto;
-  margin-top: 50px;
   border-radius: 10px;
+  float: right;
 }
 
 .TeacherContent .card {
@@ -117,7 +145,7 @@
 
 .TeacherContent .cardBack #nameKor a {
   font-family: "Roboto", sans-serif;
-  color: #f01d5c;
+  color: #474b77;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0px;
@@ -139,7 +167,7 @@
 }
 
 .TeacherContent .cardBack i {
-  color: #f01d5c;
+  color: #474b77;
   margin-left: 14px;
   margin-top: 20px;
   float: right;
@@ -148,7 +176,7 @@
 }
 
 .TeacherContent .cardBack i:hover {
-  color: #f189a8;
+  color: #5f659e;
   transition-duration: 200ms;
   transform: rotateZ(15deg);
 }
@@ -162,14 +190,15 @@
   margin: auto;
   width: 370px;
   margin-top: 30px;
-  background-color: #f01d5c;
+  background-color: #474b77;
 }
 
 .TeacherContent .teacherInfo {
   margin: auto;
-  margin-top: 50px;
   margin-bottom: 50px;
-  width: 700px;
+  margin-top: 100px;
+  width: 850px;
+  height: 300px;
   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
   border-radius: 10px;
   padding: 30px;
@@ -193,7 +222,7 @@
 }
 
 .TeacherContent .teacherInfo .job {
-  color: #f01d5c;
+  color: #474b77;
 
   font-size: 14px;
   margin-bottom: 20px;
@@ -209,9 +238,10 @@
 }
 
 .TeacherContent .testContainer {
-  width: 760px;
+  width: 900px;
   height: 300px;
   margin: auto;
+  margin-top: 50px;
 }
 
 .TeacherContent .zoomCode {
@@ -281,7 +311,7 @@ hr {
 
 .TeacherContent .zoomCode .lesson {
   margin-top: 30px;
-  background-color: #f01d5c;
+  background-color: #474b77;
   padding: 20px;
   padding-left: 16px;
   padding-right: 16px;

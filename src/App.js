@@ -7,6 +7,7 @@ import SideMenu from "./SideMenu";
 import Teacher from "./Teacher";
 import TeacherContent from "./TeacherContent";
 import TeacherSideMenu from "./TeacherSideMenu";
+import RightMenu from "./RightMenu";
 
 function App() {
   return (
@@ -36,8 +37,9 @@ function App() {
           path="/teacher"
           render={() => (
             <>
-              <Teacher />
               <TeacherSideMenu />
+              <RightMenu />
+              <Teacher />
               <TeacherContent />
             </>
           )}

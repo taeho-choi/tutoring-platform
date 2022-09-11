@@ -9,19 +9,20 @@ const TeacherSideMenu = () => {
           <div className="profile">
             <img id="profileImg" src="img/myPhoto.png" />
             <div className="name">Taeho Choi</div>
-            <div className="introduce">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </div>
-            <div className="follow">Follow</div>
           </div>
           <div className="Menu">
-            <div className="MenuButton">📞 Something</div>
-            <div className="MenuButton">📃 Something</div>
-            <div className="MenuButton">📁 Something</div>
-            <div className="MenuButton">🔑 Something</div>
-            <div className="MenuButton">🎧 Something</div>
-            <div className="MenuButton">🥇 Something</div>
+            <div className="MenuButton">
+              <i class="fa-regular fa-file fa-fw"></i>　Profile
+            </div>
+            <div className="MenuButton">
+              <i class="fa-regular fa-pen-to-square fa-fw"></i>　Classes
+            </div>
+            <div className="MenuButton">
+              <i class="fa-regular fa-comments fa-fw"></i>　Messages
+            </div>
+            <div className="MenuButton">
+              <i class="fa-regular fa-calendar-days fa-fw"></i>　Schedule
+            </div>
           </div>
         </div>
       </div>

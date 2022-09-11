@@ -12,9 +12,9 @@
   text-align: center;
   color: rgb(37, 37, 37);
   min-height: 100vh;
-  font-family: "Poppins", "Pretendard-Regular";
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, "Pretendard-Regular";
+  background-color: #fdfdfd;
 }
 
 ul,

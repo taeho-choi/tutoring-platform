@@ -5,8 +5,8 @@ const Teacher = () => {
   return (
     <div className="Teacher">
       <div className="topArea">
-        <div className="logo">LOGO</div>
-        <div className="pageInfo">|　Teacher</div>
+        <div className="logo">Luacademy</div>
+        <input id="search" placeholder="Search classes"></input>
         <div className="hello">
           Hello, <a>Taeho Choi</a>
         </div>
