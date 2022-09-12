@@ -7,7 +7,7 @@ const TeacherSideMenu = () => {
       <div className="box">
         <div className="info">
           <div className="profile">
-            <img id="profileImg" src="img/myPhoto.png" />
+            <img id="profileImg" src="img/profile.jpg" />
             <div className="name">Taeho Choi</div>
           </div>
           <div className="Menu">

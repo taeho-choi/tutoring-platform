@@ -1,6 +1,6 @@
 .TeacherContent {
   position: relative;
-  background-color: #f5f5f5;
+  background-color: white;
   height: max(860px, 100vh);
   color: #363636;
   width: 1000px;
@@ -17,28 +17,52 @@
 
 .TeacherContent .profileContainer {
   float: left;
-  width: 400px;
-  height: 350px;
+  width: 300px;
+  height: 250px;
 }
 
 .TeacherContent .profileContainer #name {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 20px;
+}
+
+.TeacherContent .profileContainer #test {
+  float: left;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 14px;
+  width: 100px;
+}
+
+.TeacherContent .profileContainer #test2 {
+  float: left;
+  font-weight: 500;
+  font-size: 12px;
+  width: 100px;
 }
 
 .TeacherContent .profileContainer img {
   float: none;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   border-radius: 200px;
   background-color: white;
   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
-
+  border: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
+}
+
+.TeacherContent #pageHr {
+  background-color: #d0d0d0;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 0;
+  height: 1px;
 }
 
 .TeacherContent .cardContainer {
@@ -58,6 +82,12 @@
   transition: all 0.8s ease;
   background-color: #f5f5f5;
   border-radius: 10px;
+}
+
+.TeacherContent .card hr {
+  background-color: #474b77;
+  height: 1px;
+  border: none;
 }
 
 .TeacherContent .card:hover {
@@ -147,7 +177,7 @@
   font-family: "Roboto", sans-serif;
   color: #474b77;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0px;
   margin-left: 0px;
   padding-left: 4px;
@@ -196,8 +226,7 @@
 .TeacherContent .teacherInfo {
   margin: auto;
   margin-bottom: 50px;
-  margin-top: 100px;
-  width: 850px;
+  width: 750px;
   height: 300px;
   box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
   border-radius: 10px;
@@ -238,131 +267,99 @@
 }
 
 .TeacherContent .testContainer {
-  width: 900px;
+  width: 800px;
   height: 300px;
   margin: auto;
   margin-top: 50px;
 }
 
-.TeacherContent .zoomCode {
-  margin-bottom: 50px;
-  width: 240px;
-  height: 200px;
-  background-color: white;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
-  border-radius: 10px;
-  text-align: left;
+.TeacherContent .infoDiv {
+  /* border: 1px solid red; */
   float: left;
-  padding: 20px 30px;
-  overflow-y: scroll;
-}
-
-.TeacherContent .zoomCode::-webkit-scrollbar {
-  width: 8px;
-}
-
-.TeacherContent .zoomCode::-webkit-scrollbar-thumb {
-  background: #b8b8b8;
-  border-radius: 4px;
-}
-
-.TeacherContent .zoomCode::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0);
-  width: 10px;
-}
-
-.TeacherContent .cardName {
-  font-size: 18px;
-  color: #363636;
-  font-weight: 600;
-  margin-bottom: 16px;
-  background-color: white;
-}
-
-.TeacherContent .zoomCardName {
-  font-size: 18px;
-  color: #363636;
-  font-weight: 600;
-  margin-bottom: 16px;
-  position: fixed;
-  background-color: white;
-  width: 240px;
-  height: 40px;
-  margin-top: -20px;
-  padding-top: 20px;
-}
-
-#zoomIcon {
-  fill: #363636;
-  width: 60px;
-  float: left;
-  margin-top: -16px;
-  z-index: 1;
-  background: transparent;
-  margin-right: 6px;
-}
-
-hr {
-  width: 100%;
-  border: 0;
-  background-color: #686868;
-  height: 1px;
-}
-
-.TeacherContent .zoomCode .lesson {
-  margin-top: 30px;
-  background-color: #474b77;
-  padding: 20px;
-  padding-left: 16px;
-  padding-right: 16px;
-  border-radius: 10px;
-  color: white;
-}
-
-.TeacherContent .zoomCode .lessonName {
-  font-weight: 600;
-  font-size: 18px;
-}
-
-.TeacherContent .zoomCode .lessonCode {
-  font-size: 14px;
-}
-
-#zoomHr {
-  background-color: white;
-}
-
-/* Teacher Details */
-.TeacherContent .teacherDetails {
   width: 350px;
-  background-color: white;
-  height: 200px;
-  float: right;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+  margin: auto;
+  margin-left: 100px;
   margin-bottom: 50px;
-  padding: 20px 30px;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.TeacherContent .major {
+  margin-top: 14px;
+}
+
+.TeacherContent .infoDiv #hashTag {
+  border: 1px solid rgb(109, 17, 221);
+  background-color: rgb(252, 250, 255);
+  border-radius: 20px;
+  padding: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  color: rgb(109, 17, 221);
+  font-weight: 500;
+}
+
+.TeacherContent .zoomDiv {
+  /* border: 1px solid blue; */
+  float: left;
+  width: 450px;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.TeacherContent .zoomDiv svg {
+  margin-right: 500px;
+  width: 50px;
+  transform: translateY(-16px);
+  fill: #363636;
+  margin-bottom: -30px;
+}
+
+.TeacherContent .zoomDiv #zoomId {
+  font-weight: 500;
+}
+
+.TeacherContent .zoomDiv #id {
+  border-radius: 20px;
+  color: #363636;
+}
+
+.TeacherContent .zoomDiv #zoomPw {
+  margin-top: 14px;
+  font-weight: 500;
+}
+
+.TeacherContent .zoomDiv #pw {
+  border-radius: 20px;
+  color: #363636;
+}
+
+.TeacherContent .classesDiv {
+  width: 800px;
+  margin: auto;
   text-align: left;
 }
 
-.TeacherContent .detailsContainerLeft {
+.TeacherContent .classesDiv #title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.TeacherContent .classesDiv .class {
   float: left;
-  width: 49%;
-  height: 317px;
+  width: 400px;
+  height: 100px;
 }
 
-.TeacherContent .detailsContainerRight {
-  float: right;
-  width: 49%;
-  height: 317px;
-}
-
-.teacherDetails .detailsName {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.teacherDetails .detailsDesc {
-  font-size: 14px;
-  margin-bottom: 50px;
+.TeacherContent .classesDiv .classInfo {
+  margin: 10px;
+  border-radius: 10px;
+  height: 80px;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.2);
+  border: 1px solid #d0d0d0;
 }
