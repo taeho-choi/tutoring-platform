@@ -5,7 +5,7 @@ const Teacher = () => {
   return (
     <div className="Teacher">
       <div className="topArea">
-        <div className="logo">Luacademy</div>
+        <div className="logo">LUA</div>
         <input id="search" placeholder="Search classes"></input>
         <div className="hello">
           Hello, <a>Taeho Choi</a>

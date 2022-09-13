@@ -71,7 +71,7 @@ const TeacherContent = () => {
       <hr id="pageHr" />
 
       <div className="classesDiv">
-        <div id="title">What am I Teaching</div>
+        <div id="title">My Classes</div>
         <div className="class">
           <div className="classInfo"></div>
         </div>
