@@ -23,7 +23,7 @@
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.3);
+  box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.3);
 }
 
 .TeacherSideMenu .info {

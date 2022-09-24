@@ -1,4 +1,4 @@
-.LoginPage {
+.SignUp {
   text-align: center;
   background-color: #ffffff;
   color: rgb(37, 37, 37);
@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-.LoginBox {
+.SignUpBox {
   /* border: 1px solid rgb(199, 199, 199); */
   border: none;
   border-radius: 10px;
@@ -15,7 +15,7 @@
   padding-top: 24vh;
 }
 
-.LoginBox input {
+.SignUpBox input {
   width: 300px;
   height: 40px;
   margin: auto;
@@ -35,7 +35,7 @@
   display: block;
 }
 
-.LoginPage .loginBtn {
+.SignUp .signUpBtn {
   width: 300px;
   height: 40px;
   margin: auto;
@@ -57,12 +57,12 @@
   display: block;
 }
 
-.LoginPage .loginBtn:hover {
+.SignUp .signUpBtn:hover {
   background-color: rgba(128, 128, 128, 0.1);
   transition-duration: 100ms;
 }
 
-.LoginPage .signup {
+.SignUp .signup {
   width: 300px;
   height: 40px;
   margin: auto;
@@ -84,12 +84,12 @@
   display: block;
 }
 
-.LoginPage .signup:hover {
+.SignUp .signup:hover {
   transition-duration: 100ms;
   color: #78a7dd;
 }
 
-.LoginPage .Logo {
+.SignUp .Logo {
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 500;
