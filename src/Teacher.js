@@ -7,8 +7,11 @@ import {
   onAuthStateChanged,
   signOut,
 } from "firebase/auth";
+import { collection, doc, getDoc } from "firebase/firestore";
+import db from "./firestore";
+import app from "./firebase";
 
-const Teacher = ({ isLoggedIn, setIsLoggedIn }) => {
+const Teacher = ({ isLoggedIn, setIsLoggedIn, userData }) => {
   const history = useHistory();
 
   useEffect(() => {
@@ -22,6 +25,7 @@ const Teacher = ({ isLoggedIn, setIsLoggedIn }) => {
     });
   }, []);
 
+  // Auth
   const onSignOut = () => {
     signOut(getAuth());
     history.replace("/");
@@ -30,6 +34,9 @@ const Teacher = ({ isLoggedIn, setIsLoggedIn }) => {
   const needSignIn = () => {
     history.replace("/");
   };
+
+  // Firestore
+  const docRef = doc(db, "users", "x145789@naver.com");
 
   return (
     <div className="Teacher">
@@ -48,8 +55,7 @@ const Teacher = ({ isLoggedIn, setIsLoggedIn }) => {
               <div className="hello">invalid user</div>
             ) : (
               <div className="hello">
-                Hello, {getAuth().currentUser.email}{" "}
-                <a onClick={onSignOut}>SignOut</a>
+                Hello, {userData[0].name} <a onClick={onSignOut}>SignOut</a>
               </div>
             )}
           </div>
@@ -57,6 +63,10 @@ const Teacher = ({ isLoggedIn, setIsLoggedIn }) => {
       )}
     </div>
   );
+};
+
+Teacher.defaultProps = {
+  userData: [{ name: "temp" }],
 };
 
 export default Teacher;

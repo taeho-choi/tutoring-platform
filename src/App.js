@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Route } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import LoginPage from "./LoginPage";
@@ -16,10 +16,50 @@ import {
   signInWithEmailAndPassword,
   onAuthStateChanged,
 } from "firebase/auth";
+import { collection, doc, getDoc, query, getDocs } from "firebase/firestore";
+import db from "./firestore";
 
 function App() {
+  useEffect(() => {
+    console.log("App Effect");
+    printData();
+  }, []);
+
   // firebase
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [sss, setSss] = useState(false);
+
+  // get firestore Database
+  const [data, setData] = useState(true);
+
+  const initData = async () => {
+    const q = query(collection(db, "users"));
+
+    getDocs(q).then((res) => {
+      res.forEach((doc) => {
+        setData((prevData) => [doc.data(), ...prevData]);
+        console.log(doc.data());
+      });
+    });
+  };
+
+  const initData2 = async () => {
+    const docs = await getDocs(query(collection(db, "users")));
+
+    docs.forEach((doc) => {
+      console.log(doc.data());
+      setData((prevData) => [doc.data(), ...prevData]);
+      console.log(data);
+    });
+  };
+
+  const printData = () => {
+    console.log(sss);
+    setSss(true).then(console.log("asd"));
+    setTimeout(() => {
+      console.log(sss);
+    }, 2000);
+  };
 
   return (
     <div className="App">
@@ -62,6 +102,7 @@ function App() {
                   <Teacher
                     isLoggedIn={isLoggedIn}
                     setIsLoggedIn={setIsLoggedIn}
+                    userData={data}
                   />
                 </>
               ) : (

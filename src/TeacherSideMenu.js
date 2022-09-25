@@ -12,16 +12,16 @@ const TeacherSideMenu = () => {
           </div>
           <div className="Menu">
             <div className="MenuButton">
-              <i class="fa-regular fa-file fa-fw"></i>　Profile
+              <i className="fa-regular fa-file fa-fw"></i>　Profile
             </div>
             <div className="MenuButton">
-              <i class="fa-regular fa-pen-to-square fa-fw"></i>　Classes
+              <i className="fa-regular fa-pen-to-square fa-fw"></i>　Classes
             </div>
             <div className="MenuButton">
-              <i class="fa-regular fa-comments fa-fw"></i>　Messages
+              <i className="fa-regular fa-comments fa-fw"></i>　Messages
             </div>
             <div className="MenuButton">
-              <i class="fa-regular fa-calendar-days fa-fw"></i>　Schedule
+              <i className="fa-regular fa-calendar-days fa-fw"></i>　Schedule
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const TeacherContent = () => {
           <div className="card">
             <div className="cardFront">
               <div id="logo">LOGO</div> <div id="name">taeho choi</div>
-              <i class="fas fa-mouse-pointer" id="cursor"></i>
+              <i className="fas fa-mouse-pointer" id="cursor"></i>
             </div>
             <div className="cardBack">
               <div id="logo">LOGO</div>
@@ -38,9 +38,9 @@ const TeacherContent = () => {
               <hr></hr>
 
               <div className="icons">
-                <i class="fa-brands fa-facebook fa-2x"></i>
-                <i class="fa-brands fa-twitter fa-2x"></i>
-                <i class="fa-brands fa-instagram fa-2x"></i>
+                <i className="fa-brands fa-facebook fa-2x"></i>
+                <i className="fa-brands fa-twitter fa-2x"></i>
+                <i className="fa-brands fa-instagram fa-2x"></i>
               </div>
             </div>
           </div>
@@ -48,10 +48,10 @@ const TeacherContent = () => {
       </div>
 
       <div className="infoDiv">
-        <i class="fa-solid fa-location-dot fa-fw"></i>　Seoul, South
+        <i className="fa-solid fa-location-dot fa-fw"></i>　Seoul, South
         Korea(Republic of Korea)
         <br />
-        <i class="fa-solid fa-school fa-fw"></i>　TECH UNIVERSITY OF KOREA
+        <i className="fa-solid fa-school fa-fw"></i>　TECH UNIVERSITY OF KOREA
         <div className="major">
           <a id="hashTag">#GameEngineering</a> <a id="hashTag">#Front-end</a>
         </div>
